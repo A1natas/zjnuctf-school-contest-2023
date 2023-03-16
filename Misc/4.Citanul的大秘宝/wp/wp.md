@@ -30,9 +30,9 @@ base32:MVNEW2LNM5LHAU3LHA4XMSRRKNLFG2KCKNMW2VLLNFAUISDFGNNGO2CZIZSTQ5DSOJFFSWSQK
 #随波逐流应该是出不来的，用CyberChef中的magic或者ciphey都是秒出（这里ciphey可能有点问题，把下划线自动删去了，还是建议用CyberChef）
 ```
 
-![image-20230313123501535](C:\Users\GoodLunatic\AppData\Roaming\Typora\typora-user-images\image-20230313123501535.png)
+![img1](./imgs/img1.png)
 
-![image-20230313123555314](C:\Users\GoodLunatic\AppData\Roaming\Typora\typora-user-images\image-20230313123555314.png)
+![img2](./imgs/img2.png)
 
 ```bash
 #步骤四
@@ -55,5 +55,4 @@ base32:MVNEW2LNM5LHAU3LHA4XMSRRKNLFG2KCKNMW2VLLNFAUISDFGNNGO2CZIZSTQ5DSOJFFSWSQK
 Hint就在这里，但是你看不见.txt 这个文件考察的是零宽字符，直接在线网站解密即可
 ```
 
-![QQ截图20230314090147](C:\Users\GoodLunatic\Desktop\QQ截图20230314090147.png)
-
+![img3](./imgs/img3.png)
