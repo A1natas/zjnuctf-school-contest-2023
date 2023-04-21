@@ -12,7 +12,7 @@ DEBUG = 0
 context.log_level = "debug"
 context.arch = "amd64"
 
-io = process("../file/cancanneed") if DEBUG else remote("101.34.90.86", 20003)
+io = process("../file/cancanneed") if DEBUG else remote("127.0.0.1", 20003)
 elf: ELF = ELF("../file/cancanneed")
 libc: ELF = elf.libc
 

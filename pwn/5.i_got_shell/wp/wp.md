@@ -114,7 +114,7 @@ context.log_level = "debug"
 DEBUG = 0
 
 elf = ELF("../file/i_got_shell_release")
-io = process("../file/i_got_shell_release") if DEBUG else remote("101.34.90.86", 20004)
+io = process("../file/i_got_shell_release") if DEBUG else remote("127.0.0.1", 20004)
 
 s = lambda data: io.send(data)
 sa = lambda word, data: io.sendafter(word, data)
