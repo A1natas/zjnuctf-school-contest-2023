@@ -14,12 +14,12 @@ if($a>1000)
 {
     if($b!==$c&md5($b)==md5($c))
     {
-        $cmd = $_POST['cmd'];//flag.php
+        $cmd = $_POST['cmd']; // flag.php
         @eval($cmd);
     }
     else
     {
-     echo "我渴望,有价值的对手";
+        echo "我渴望,有价值的对手";
     }
 
 }
