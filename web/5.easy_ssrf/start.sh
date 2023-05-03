@@ -1,7 +1,7 @@
 #!/bin/bash
 rm -rf /start.sh
-echo $GZCTF_FLAG > /flag
-export GZCTF_FLAG="no_flag"
+echo $FLAG > /flag
+export FLAG="no_flag"
 chmod 700 /flag
 chmod +s /bin/cp
 useradd ctf
