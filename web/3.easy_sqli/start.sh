@@ -1,7 +1,6 @@
-#!/bin/sh
 rm  /start.sh
-echo $FLAG > /flag
-export FLAG="no_flag"
+echo $GZCTF_FLAG > /flag
+export GZCTF_FLAG="no_flag"
 service mysql start
 until mysql  -u "root" "-proot" -e 'SELECT 1'; do
   >&2 echo "MySQL is unavailable - sleeping"
