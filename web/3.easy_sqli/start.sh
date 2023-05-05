@@ -1,6 +1,5 @@
-#!/bin/sh
 rm  /start.sh
-echo $FLAG > /flag
+sed -i "s/zjnuctf{test_flag}/$FLAG/g" /db.sql
 export FLAG="no_flag"
 service mysql start
 until mysql  -u "root" "-proot" -e 'SELECT 1'; do
