@@ -6,7 +6,7 @@ CREATE TABLE users
         img varchar(20) NOT NULL,
         PRIMARY KEY (id)
         );
-CREATE TABLE flagggg_1s_h3re
+CREATE TABLE s3rets
         (
         id int(3)NOT NULL AUTO_INCREMENT,
         flag varchar(100) NOT NULL,
@@ -25,5 +25,5 @@ INSERT INTO ctf.users (id, name, img) VALUES
     ('9', '藤原千花', './static/img9.jpg'),
     ('10', '时崎狂三', './static/img10.jpg');
  
-INSERT INTO ctf.flagggg_1s_h3re (id, flag) VALUES 
-    ('1', load_file('../../../../flag'));
+INSERT INTO ctf.s3rets (id, flag) VALUES 
+    ('1', 'zjnuctf{test_flag}');
